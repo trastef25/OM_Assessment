@@ -1,7 +1,5 @@
 <?php
 
-require 'Beans/rb.php';
-
 class Base_Controller_BaseController extends Zend_Controller_Action{
 
     public function init()
@@ -13,7 +11,7 @@ class Base_Controller_BaseController extends Zend_Controller_Action{
 
     protected function _session_handler(){
         if (!isset($_SESSION['userid'])) {
-            $this->_redirect('/login?status=sessionExpired');
+            //$this->_redirect('/login?status=sessionExpired');
         }else{
             
         };
