@@ -8551,44 +8551,102 @@ button.close {
     transform: rotate(360deg);
   }
 }
-/* line 3, ../../sass/partials/_global.scss */
-body .clearfix {
-  overflow: auto;
-}
-/* line 13, ../../sass/partials/_global.scss */
-body .wrapper .content-wrapper .content .dataTable-form .modal form .styled-checkbox {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0;
-  padding: 0;
-  width: 18px;
-  height: 18px;
-  background: rgba(255, 255, 255, 0.7) url(../img/minimal.png) no-repeat;
-  border: none;
-  cursor: pointer;
-  background-position: 0 0;
-}
-/* line 25, ../../sass/partials/_global.scss */
-body .wrapper .content-wrapper .content .dataTable-form .modal form .styled-checkbox.checked {
-  background-position: -40px 0;
-}
-/* line 30, ../../sass/partials/_global.scss */
-body .wrapper .content-wrapper .content .dataTable-form .modal form .styled-checkbox input[type=checkbox] {
-  display: none;
+/* line 64, my-icons/*.png */
+.my-icons-sprite, .my-icons-add_off, .my-icons-add_on, .my-icons-scrollTop {
+  background-image: url('/static/img/my-icons-s9b4aa0d034.png');
+  background-repeat: no-repeat;
 }
 
-/* line 13, ../../sass/partials/_dataTable-form.scss */
-.dataTable-form .modal form .modal-dialog .modal-content .modal-body .form-group .input-group .form-control {
-  background: rgba(255, 255, 255, 0.2);
+/* line 84, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.my-icons-add_off {
+  background-position: 0 0;
 }
-/* line 18, ../../sass/partials/_dataTable-form.scss */
-.dataTable-form .modal form .modal-dialog .modal-content .modal-body .form-group .input-group label.error {
-  color: red;
-  position: absolute;
-  right: 8px;
-  top: 6px;
+
+/* line 84, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.my-icons-add_on {
+  background-position: 0 -48px;
 }
-/* line 28, ../../sass/partials/_dataTable-form.scss */
-.dataTable-form .modal form .modal-dialog .modal-content .modal-body .form-group label.error {
-  color: red;
+
+/* line 84, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.my-icons-scrollTop {
+  background-position: 0 -96px;
+}
+
+/* line 1, ../../sass/partials/_global.scss */
+body {
+  padding-top: 50px;
+  text-align: justify;
+  height: 100%;
+}
+/* line 6, ../../sass/partials/_global.scss */
+body .sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+/* line 11, ../../sass/partials/_global.scss */
+body .main {
+  padding: 20px;
+}
+/* line 14, ../../sass/partials/_global.scss */
+body .main .page-header {
+  margin-top: 0;
+}
+@media screen and (max-width: 767px) {
+  /* line 11, ../../sass/partials/_global.scss */
+  body .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 25, ../../sass/partials/_global.scss */
+  body .sidebar {
+    display: none;
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+/* line 42, ../../sass/partials/_global.scss */
+body .placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+/* line 46, ../../sass/partials/_global.scss */
+body .placeholders h4 {
+  margin-bottom: 0;
+}
+/* line 51, ../../sass/partials/_global.scss */
+body .placeholder {
+  margin-bottom: 20px;
+}
+/* line 54, ../../sass/partials/_global.scss */
+body .placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+/* line 60, ../../sass/partials/_global.scss */
+body .nav-sidebar {
+  margin-right: -21px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+/* line 66, ../../sass/partials/_global.scss */
+body .nav-sidebar > .active > a {
+  color: #fff;
+  background-color: #428bca;
+}
+/* line 73, ../../sass/partials/_global.scss */
+body .nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
 }

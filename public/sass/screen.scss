@@ -1,6 +1,12 @@
 //@import "compass/reset";
-//@import "compass/utilities";
+@import "compass/utilities";
 @import "compass/css3";
+
+@import "compass";
+@import "compass/utilities/sprites";
+
+
+
 
 //Bootstrap
 @import "../vendor/bootstrap/assets/stylesheets/bootstrap.scss";
@@ -10,12 +16,11 @@
 @import "helpers/mixins";
 
 //Sprites
-//@import "../static/img/my-icons/*.png";
-//@include all-my-icons-sprites;
+@import "my-icons/*.png";
+@include all-my-icons-sprites;
 
 //partials
 @import "partials/global";
-@import "partials/dataTable-form";
 
 //pages
 @import "pages/home";

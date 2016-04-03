@@ -15,7 +15,7 @@
 @import "helpers/mixins";
 
 //Sprites
-//@import "../static/img/my-icons/*.png";
-//@include all-my-icons-sprites;
+@import "static/img/my-icons/*.png";
+@include all-my-icons-sprites;
 
 
