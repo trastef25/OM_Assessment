@@ -1,0 +1,21 @@
+//@import "compass/reset";
+//@import "compass/utilities";
+@import "compass/css3";
+
+//Bootstrap
+@import "../vendor/bootstrap/assets/stylesheets/bootstrap.scss";
+
+//Helpers
+@import "helpers/vars";
+@import "helpers/mixins";
+
+//Sprites
+//@import "../static/img/my-icons/*.png";
+//@include all-my-icons-sprites;
+
+//partials
+@import "partials/global";
+@import "partials/dataTable-form";
+
+//pages
+@import "pages/home";

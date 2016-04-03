@@ -1,0 +1,168 @@
+
+/*===== Buttons general style=====*/
+.nav-sidebar > .active > a:hover{
+	background-color: #428bca;
+}
+.add_button{
+	width: 50px;
+	height: 34px;
+	background: url('../images/icons/add_off.png') no-repeat -9px -16px;
+}
+.add_button:hover{
+	background: url('../images/icons/add_on.png') no-repeat -9px -16px;
+}
+
+.form_mat{
+	position: absolute;
+	top: 200px;
+}
+.table{
+	width: 100%;
+	top: 200px;
+	position: absolute;
+	border: 1px solid #DDDDDD;
+}
+
+table thead tr:nth-child(1){
+	background:#F5F5F5; 
+}
+
+#main_title{
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.moveLeft{
+top:4px;
+left: 52px;
+position: relative;
+
+}
+
+.marginleft{
+	margin-left: 20px;
+}
+input{
+	text-align: center;
+}
+.error{
+	margin-left: 20px;
+	color:red;
+	font-weight: bold; 
+}
+//*================ASSESSMENT=================*//
+ 
+ #Frm_assessment {
+	/*background: green;*/
+	height: 300px;
+	 
+}
+
+#firstContent{
+/*	background: blue; */
+	width: 50%;
+	height:100%;
+	float: left;
+}
+
+#secondContent{ 
+	width: 35%;
+	height:85%;
+	float: left;
+}
+#thirdContent{
+	width: 15%;
+	height:85%;
+	float: left;	
+}
+input[name^="overall_Score"]{
+	margin-left: 4px;
+}
+#input_status{
+margin-left: 100px;
+}
+#input_OpexEval{
+	margin-left:35px;
+}
+/*
+.fixedContent{
+	background: #ffffff;
+	z-index: 100;
+	position: fixed; 
+	top: 50px;
+}*/
+ 
+.table_assessment{
+	width: 100%;
+	top: 520px;
+	position: absolute;
+	border: 1px solid #DDDDDD;
+}
+.table_assessment tr{
+ 	border: 1px solid #DDDDDD;
+}
+
+#inp_id_assessment{
+	position: relative;
+	left: 10px;
+}
+
+#teamInputAssessment{
+  margin-left: 90px;
+}
+
+.levTable, .catTable, .teamTable, .prioTable, 
+.userTable, .roleTable, .questTable{
+	position: relative;
+	top: 50px;
+}
+
+ .t_question{
+ 	top: 300px;
+ 	position: absolute;
+ }
+ #a_question{
+ 	color:white;
+ }
+button a:hover{
+		color:white;
+ 	text-decoration: none;
+ }
+
+ .displayNone{
+ 	display: none;
+ }
+ .backBtn{
+	position: relative;
+	top: -34px;
+	left: 110px; 
+ }
+ #backBtnTeam {
+position: relative;
+top: -49px;
+left: 211px;
+}
+ #backBtnUTeam, #backUBtnUser, #backBtnUQuest {
+position: relative;
+top: -49px;
+left: 235px;
+}
+#backBtnAssessment{
+position: relative;
+width: 100px;
+height:40px;
+top: 10px;
+left: 0px;
+font-size: 14px;
+font-weight: normal
+}
+#btnsaveAssessment{
+padding: 10px 31px;
+font-size: 14px;
+}
+#backBtnSelectA{
+	left: 600px;
+	position: relative;
+	top: -35px;	
+}
