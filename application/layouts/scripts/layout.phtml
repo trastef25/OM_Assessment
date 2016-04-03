@@ -10,18 +10,13 @@
 
 		<?php
 		  	echo $this->headLink()
-		                    ->appendStylesheet($this->constants->base_url . '/vendor/bootstrap/assets/stylesheets/bootstrap.min.css', 'all', true)
+		                    /*->appendStylesheet($this->constants->base_url . '/vendor/bootstrap/assets/stylesheets/bootstrap.min.css', 'all', true)*/
 		                    ->appendStylesheet($this->constants->base_url . 'static/css/screen.css', 'all', true);
 
 		   echo $this->headScript()
 		                    ->prependFile($this->constants->base_url.'vendor/adminlte/plugins/jQuery/jQuery-2.1.4.min.js')
 		                    ->appendFile($this->constants->base_url.'static/js/OM.js');
 		?>
-
-    	<link href="../resources/css/reset.css" rel="stylesheet">
-    
-    	<!-- Bootstrap core CSS -->
-    	<link href="../resources/css/bootstrap.css" rel="stylesheet">
 
     	<!-- -- styles --  -->
     	<link href="../resources/css/main.css" rel="stylesheet">
@@ -71,7 +66,7 @@
 	            </div>
 	        </div>
 
-	        <div class="row">
+	        <div class="clearfix">
 	            <div class="col-sm-3 col-md-2 sidebar">
 	                <ul class="nav nav-sidebar">
 	                	<li class="active"><a href="#">Overview</a></li>

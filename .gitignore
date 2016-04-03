@@ -1,6 +1,6 @@
 #################
-## SASS ignore cache
+## SASS files
 #################
-
 public/.sass-cache
 public/static/img/my-icons*.png
+public/static/css/screen.css
